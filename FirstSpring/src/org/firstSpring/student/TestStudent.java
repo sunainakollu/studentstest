@@ -11,6 +11,7 @@ public class TestStudent {
 	    BeanFactory factory=new XmlBeanFactory(resource);  
 	      
 	    Student student=(Student)factory.getBean("studentbean");  
-	    student.displayInfo();  
+	    student.displayInfo(); 
+	    System.out.println("fix another");
 	}  
 }
