@@ -13,5 +13,6 @@ public void setName(String name) {
 public void displayInfo(){  
     System.out.println("Hello: "+name);  
     System.out.println("added change");
+    System.out.println("Change class change");
 }  
 }
